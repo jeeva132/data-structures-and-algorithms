@@ -58,6 +58,11 @@ class BinarySearchTree:
         if value>current_node.value:
             return self.__r_contains(current_node.right,value)
         
+    def min_value(self,current_node):
+        while current_node.left is not None:
+            current_node = current_node.left
+        return current_node.value
+        
 
 
 my_tree = BinarySearchTree()
