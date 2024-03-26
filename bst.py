@@ -27,3 +27,4 @@ class BST:
                     temp.right=new_node
                     return True
                 temp =temp.right
+    # binary search tree
