@@ -12,3 +12,4 @@ def OperationsBinaryString(str):
     return a
 str=input()
 print(OperationsBinaryString(str))
+#returns bin form
