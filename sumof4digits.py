@@ -4,7 +4,7 @@ class Solution:
         n = []
         while num:
             n.append(num%10)
-            n = n//10
+            num = num//10
 
         n.sort()
         n1 = n[0]*10 + n[-1]
