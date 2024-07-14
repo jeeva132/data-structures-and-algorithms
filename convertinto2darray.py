@@ -16,8 +16,7 @@ class Solution:
                 newa = []
                 i = 0
             
-        # if not newa:
-        #     res.append(newa)
+
         return res
             
 
