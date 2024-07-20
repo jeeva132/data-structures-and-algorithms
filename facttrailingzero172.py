@@ -4,6 +4,7 @@ class Solution:
         
         i  = 1
         count = 0
+        #accumulator
         while n//pow(5,i):
             count +=n//pow(5,i)
             i +=1
